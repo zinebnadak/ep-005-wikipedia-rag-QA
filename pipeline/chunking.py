@@ -20,6 +20,14 @@ def chunk_article_data(article_data: dict) -> list[dict]:
 
     BOILERPLATE_HEADINGS = {"See also", "Notes", "References", "External links", "Citations", "Bibliography"}   # issue if wikipedia (language code) is not english
 
+    '''
+    Each time  hit a === subsection,  need to know which == section it belongs to. 
+    # So  need to remember "the most recent == heading I saw" as you walk through the loop. 
+    # That's current_section.
+    '''
+
+    current_section = None
+    current_subsection = None
 
     for i, match in enumerate(matches):
         number_of_equal_signs = len(match.group(1))
@@ -33,12 +41,35 @@ def chunk_article_data(article_data: dict) -> list[dict]:
 
         if heading_name in BOILERPLATE_HEADINGS:
             continue
-
         if not content.strip():
             continue
 
-        print(heading_name, "->", content)
+        if number_of_equal_signs == 2:
+            current_section = heading_name
+            current_subsection = None
+            chunks.append({
+                "text" : content.strip(),
+                "article_title": article_data["title"],
+                "section": current_section,
+                "subsection": current_subsection,
+                "page_id": article_data["page_id"]
+            })
+        
+        elif number_of_equal_signs == 3:
+            current_subsection = heading_name
+            chunks.append({
+                "text" : content.strip(),
+                "article_title": article_data["title"],
+                "section": current_section,
+                "subsection": current_subsection,
+                "page_id": article_data["page_id"]
+            })       
+
+        elif number_of_equal_signs == 4:    # merge to the heading of 3
+            chunks[-1]["text"] = chunks[-1]["text"] + f" \n\n{heading_name}:" + content.strip()
+
+    return chunks[0]
         
 
-chunk_article_data(get_article("Madrid"))
+print(chunk_article_data(get_article("Madrid")))
 

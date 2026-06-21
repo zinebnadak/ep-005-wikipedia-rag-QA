@@ -17,13 +17,53 @@ def chunk_article_data(article_data: dict) -> list[dict]:
         "subsection": None,
         "page_id": article_data["page_id"]
     })
-    return chunks
+
+    for i, match in enumerate(matches):
+        number_of_equal_signs = len(match.group(1))
+        heading_name = match.group(2)
+
+        if i + 1 < len(matches):
+            content = text_data[match.end():matches[i + 1].start()]
+        else:
+            content = text_data[match.end():]
+
+        print(heading_name, "->", content)
+        
+        
+
+     
+
+ 
 
 
 
 
-print(chunk_article_data(get_article("Madrid")))
+
+chunk_article_data(get_article("Madrid"))
 
 
+# the way it's actually done rather than path-hacking per file: run it as a module instead of as a raw script. 
+# From your project root: uv run python -m pipeline.chunking
+# match.group(1)is number of "=", match.group(2) is the heading name
+
+'''
+Let's keep top-level and subsection chunks independent for now and revisit if evals show a problem. 
+Retrieval systems should be tuned against real evaluation data, not hypothetical edge cases. 
+If chunking causes retrieval issues, it will show up in metrics like context precision or faithfulness, and we can make a targeted fix based on evidence.
+'''
+
+'''
+treat === as the deepest chunking level — i.e., cap chunking at one level of subsection nesting
+, and merge anything deeper (==== and beyond) up into its === parent.
+metadata (section + subsection, only two levels) — adding a third tracked level (subsubsection) multiplies complexity 
+(... every chunk dict needs 3 heading fields, the boilerplate filter needs to check all 3 levels, etc.)
+Cap at ===, ship it, see what eval says.
+'''
+
+'''
+feat: loops through matches and builds a chunk for each ==/=== heading, with the rules: == → new section, reset subsection to None, === → subsection under the current section
+==== → fold onto the previous chunk, skip boilerplate headings entirely 
+
+'''
 
 

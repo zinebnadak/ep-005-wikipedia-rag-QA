@@ -36,7 +36,7 @@ try:
             doc_generator = DatasetGenerator.from_documents(
                 documents=[document],
                 llm=llm,
-                num_questions_per_chunk=3,
+                num_questions_per_chunk=1,
                 show_progress=False,
             )
             doc_dataset = doc_generator.generate_dataset_from_nodes()
@@ -53,6 +53,8 @@ try:
             print(f"Error on section '{section}': {e}")
             continue
 
+    all_pairs = all_pairs[:30]
+
     with open("eval/golden_set.json", "w") as f:
         json.dump(all_pairs, f, indent=2)
     print(f"Generated {len(all_pairs)} pairs")
@@ -68,4 +70,18 @@ The terminal output "/Users/nadak/ep-005-wikipedia-rag-QA/.venv/lib/python3.12/s
   return cls("
 
 IS NOT an error, it is just an deprecation warning so wait until it finishes slowly
+'''
+
+'''
+Worth adding ground truth to at least 10-15 of the simpler questions manually.
+'''
+
+'''
+Test to see all sections and section levels:
+from scraper.wikipedia import get_article
+from pipeline.chunking import chunk_article_data
+
+chunks = chunk_article_data(get_article("Madrid"))
+for c in chunks:
+    print(c["section"], "|", c["subsection"])
 '''

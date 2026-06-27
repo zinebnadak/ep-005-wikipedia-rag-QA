@@ -99,37 +99,37 @@
   {
     "question": "Identify key figures in madrilenian architecture from the 19th and 20th centuries and describe their contributions to the city's architectural evolution. What were some of the major urban planning initiatives during this time?",
     "source_article": "Madrid",
-    "source_section": "Economy",
+    "source_section": "Culture",
     "source_subsection": "Architecture"
   },
   {
     "question": "What are the three major museums that comprise the Golden Triangle of Art in Madrid, and what is the primary focus of each museum's collection?",
     "source_article": "Madrid",
-    "source_section": "Economy",
+    "source_section": "Culture",
     "source_subsection": "Museums and cultural centres"
   },
   {
     "question": "Explain the phenomenon of le\u00edsmo, la\u00edsmo, and lo\u00edsmo in Madrid speech, and how do these pronouns function differently in the context of direct and indirect objects?",
     "source_article": "Madrid",
-    "source_section": "Economy",
+    "source_section": "Culture",
     "source_subsection": "Language"
   },
   {
     "question": "Identify two traditional winter specialties mentioned in the text and describe their main components.",
     "source_article": "Madrid",
-    "source_section": "Economy",
+    "source_section": "Culture",
     "source_subsection": "Cuisine"
   },
   {
     "question": "What are some of the key areas in Madrid known for their vibrant nightlife, and what types of venues can be found in these locations?",
     "source_article": "Madrid",
-    "source_section": "Economy",
+    "source_section": "Culture",
     "source_subsection": "Nightlife"
   },
   {
     "question": "What is the seating capacity of Las Ventas, and during which months does the bullfighting season in Madrid typically take place?",
     "source_article": "Madrid",
-    "source_section": "Economy",
+    "source_section": "Culture",
     "source_subsection": "Bullfighting"
   },
   {
@@ -177,14 +177,14 @@
   {
     "question": "How many foreign embassies are located in Madrid, and what significance do they hold in relation to the rest of Spain?",
     "source_article": "Madrid",
-    "source_section": "Transport",
+    "source_section": "International relations",
     "source_subsection": "Diplomacy"
   },
 
   {
-    "question": "What role does the United Nations Educational, Scientific and Cultural Organization (UNESCO) play in the context of Madrid's transport partnerships?",
+    "question": "What international organisations does Madrid partner with, and what are they?",
     "source_article": "Madrid",
-    "source_section": "Transport",
+    "source_section": "International relations",
     "source_subsection": "Partnerships with international organisations"
   }
 ]

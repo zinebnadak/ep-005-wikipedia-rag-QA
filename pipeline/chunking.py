@@ -34,16 +34,19 @@ def chunk_article_data(article_data: dict) -> list[dict]:
         if heading_name in BOILERPLATE_HEADINGS:
             continue
 
-        # update state for level 2, regardless of content
+    # always update state regardless of content
         if number_of_equal_signs == 2:
             current_section = heading_name
             current_subsection = None
 
-        # skip empty content for ALL levels after state is updated
-        if not content.strip():
+        if number_of_equal_signs == 3:
+            current_subsection = heading_name
+
+    # skip empty content, but NOT for level 3
+    # level 3 needs a chunk even if empty so level 4 can fold into it
+        if not content.strip() and number_of_equal_signs != 3:
             continue
 
-        # build chunks 
         if number_of_equal_signs == 2:
             chunks.append({
                 "text": content.strip(),
@@ -53,7 +56,6 @@ def chunk_article_data(article_data: dict) -> list[dict]:
                 "page_id": article_data["page_id"]
             })
         elif number_of_equal_signs == 3:
-            current_subsection = heading_name
             chunks.append({
                 "text": content.strip(),
                 "article_title": article_data["title"],

@@ -3,3 +3,4 @@ notes.txt
 test.py
 /data
 .venv
+chroma_db/

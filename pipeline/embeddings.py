@@ -3,7 +3,7 @@ from openai import OpenAI
 
 load_dotenv()
 
-client = OpenAI()
+client = OpenAI()    #persistent Client 
 
 def embed(texts: list[str]) ->list[list[float]]: # list of vectors (list of decimals)
     response = client.embeddings.create(

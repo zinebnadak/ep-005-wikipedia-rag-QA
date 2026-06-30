@@ -13,7 +13,10 @@ def retrieve(question: str , article_title: str , n_results: int=5) -> list[dict
         n_results = 5,
         where={"article_title": article_title}
     ) 
-    return results 
+    return [
+        {"text": doc, "metadata": meta, "distances": dis}
+        for doc, meta, dis in zip(results["documents"][0], results["metadatas"][0], results["distances"][0]) # results for first and only query
+    ]
 
 
 print(retrieve("What is computer science?", "Computer science"))

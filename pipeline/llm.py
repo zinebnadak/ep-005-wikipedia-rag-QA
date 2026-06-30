@@ -5,8 +5,6 @@ from typing import Iterator
 
 load_dotenv()
 
-history = [{"role":"user", "content": "Say hello!"}] #need a history list as input later
-
 def generate_messages(messages :list, stream=False, temperature=0) -> str | Iterator[str]:  #need to explicitly set stream to True
     client = Groq(api_key=os.getenv("GROQ_API_KEY"))
     response = client.chat.completions.create(
@@ -28,5 +26,3 @@ def generate_messages(messages :list, stream=False, temperature=0) -> str | Iter
     
     return stream_generator()
 
-    
-print(generate_messages(history))

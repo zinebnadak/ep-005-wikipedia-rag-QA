@@ -1,4 +1,5 @@
 # Retrieval strategies: dense (used for RAGAS baseline), then +BM25 (Best Matching 25), then hybrid search (combine dense with BM25), then +rerank
+
 import chromadb
 from pipeline.embeddings import embed 
 
@@ -18,5 +19,3 @@ def retrieve(question: str , article_title: str , n_results: int=5) -> list[dict
         for doc, meta, dis in zip(results["documents"][0], results["metadatas"][0], results["distances"][0]) # results for first and only query
     ]
 
-
-print(retrieve("What is computer science?", "Computer science"))

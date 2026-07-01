@@ -3,188 +3,217 @@
     "question": "What is the significance of Madrid's status as the capital of Spain in terms of its political, economic, and cultural roles within the country?",
     "source_article": "Madrid",
     "source_section": "Intro",
-    "source_subsection": ""
+    "source_subsection": "",
+    "ground_truth": "Madrid is the political, economic, and cultural centre of Spain. It serves as the permanent seat of the court of the Hispanic Monarchy and hosts major Spanish companies, concentrating the bulk of banking operations in the country. Additionally, it is a centre for Spanish linguistic prescriptivism and organizes significant cultural events and fairs."
   },
   {
     "question": "Identify and describe three major landmarks in Madrid that contribute to its status as a leading destination for international tourism.",
     "source_article": "Madrid",
     "source_section": "Intro",
-    "source_subsection": ""
+    "source_subsection": "",
+    "ground_truth": "Three major landmarks in Madrid that contribute to its status as a leading destination for international tourism are:\n\n1. **Plaza Mayor** - A significant public square in the heart of Madrid.\n2. **Royal Palace of Madrid** - The official residence of the Spanish royal family.\n3. **Golden Triangle of Art** - A UNESCO World Heritage site located along the Paseo del Prado, comprising three art museums: the Prado Museum, the Reina Sof\u00eda Museum, and the Thyssen-Bornemisza Museum."
   },
   {
     "question": "What are the nicknames for Madrid mentioned in the text, and what do they translate to in English?",
     "source_article": "Madrid",
     "source_section": "Etymology",
-    "source_subsection": ""
+    "source_subsection": "",
+    "ground_truth": "The nicknames for Madrid mentioned in the text are \"Los Madriles\" and \"La Villa y Corte,\" which translate to \"the town and court\" in English."
   },
   {
     "question": "Name the different types of archaeological remains found in Madrid that indicate its historical significance during the Roman and Visigoth periods.",
     "source_article": "Madrid",
     "source_section": "History",
-    "source_subsection": ""
+    "source_subsection": "",
+    "ground_truth": "The different types of archaeological remains found in Madrid that indicate its historical significance during the Roman and Visigoth periods are Roman villas, a Visigoth basilica, and three Visigoth necropolises."
   },
   {
     "question": "Describe the changes in the demographic distribution of Madrid following its conquest by Alfonso VI in 1083. How did the status of Muslims and Jews change in relation to the Christian population?",
     "source_article": "Madrid",
     "source_section": "History",
-    "source_subsection": "Middle Ages"
+    "source_subsection": "Middle Ages",
+    "ground_truth": "Following its conquest by Alfonso VI in 1083, Christians occupied the center of Madrid, while Muslims and Jews were displaced to the suburbs."
   },
   {
     "question": "What significant event led to Madrid being besieged and occupied by imperial troops during the revolt of the Comuneros, and what titles were granted to the city as a result?",
     "source_article": "Madrid",
     "source_section": "History",
-    "source_subsection": "Early Modern Era"
+    "source_subsection": "Early Modern Era",
+    "ground_truth": "The significant event that led to Madrid being besieged and occupied by imperial troops during the revolt of the Comuneros was the defeat at the Battle of Villalar. As a result, the city was granted the titles of Coronada (Crowned) and Imperial."
   },
   {
     "question": "How did Madrid's role in the Spanish Civil War (1936\u20131939) contribute to its identity as a symbol of anti-fascism, and what were some of the consequences of the conflict for the city?",
     "source_article": "Madrid",
     "source_section": "History",
-    "source_subsection": "Second Republic and Civil War"
+    "source_subsection": "Second Republic and Civil War",
+    "ground_truth": "Madrid was a stronghold of the Republican faction during the Spanish Civil War and became an international symbol of anti-fascist struggle. The city suffered aerial bombing, and in November 1936, its western suburbs were the scene of an all-out battle. The conflict ultimately led to the city falling to the Francoists in March 1939."
   },
   {
     "question": "Describe the cultural movement known as \"la Movida\" that emerged in Madrid during the late 1970s and 1980s. What were some of the social challenges the city faced during this period?",
     "source_article": "Madrid",
     "source_section": "History",
-    "source_subsection": "Recent history"
+    "source_subsection": "Recent history",
+    "ground_truth": "The cultural movement known as \"la Movida\" emerged in Madrid during the late 1970s and through the 1980s. Some of the social challenges the city faced during this period included a heroin crisis that affected poor neighborhoods and the increase of income inequality and socio-economic segregation in the early years of the 21st century."
   },
   {
     "question": "How has the urban development of Madrid been influenced by its geographical location and the annexation of neighboring settlements?",
     "source_article": "Madrid",
     "source_section": "Geography",
-    "source_subsection": ""
+    "source_subsection": "",
+    "ground_truth": "Madrid's urban development has been influenced by its geographical location on the hills next to the left bank of the Manzanares River, growing to the east towards the Fuente Castellana Creek and further east to the Abro\u00f1igal Creek. Additionally, it expanded through the annexation of neighboring urban settlements, particularly those to the South West on the right bank of the Manzanares."
   },
   {
     "question": "Identify two large forested areas in Madrid and explain their environmental importance or any special designations they may have.",
     "source_article": "Madrid",
     "source_section": "Geography",
-    "source_subsection": "Parks and forests"
+    "source_subsection": "Parks and forests",
+    "ground_truth": "Two large forested areas in Madrid are the Monte de El Pardo and the Soto de Vi\u00f1uelas. The Monte de El Pardo is considered the best preserved Mediterranean forest in the Community of Madrid and is designated as a Special Protection Area for bird-life. The Soto de Vi\u00f1uelas is also mentioned as one of the large forested areas, but its specific environmental importance or designations are not detailed in the excerpt."
   },
   {
     "question": "What are the recorded extremes of temperature in Madrid, including both the highest and lowest temperatures? Provide the dates and specific temperatures for these records.",
     "source_article": "Madrid",
     "source_section": "Geography",
-    "source_subsection": "Climate"
+    "source_subsection": "Climate",
+    "ground_truth": "The highest recorded temperature in central Madrid's Retiro Park was 40.7 \u00b0C (105.3 \u00b0F) on 14 August 2021. The lowest recorded temperature was \u221210.1 \u00b0C (13.8 \u00b0F) on 16 January 1945. At the airport, the highest recorded temperature was 42.7 \u00b0C (108.9 \u00b0F) on 14 August 2021, and the lowest recorded temperature was \u221215.2 \u00b0C (4.6 \u00b0F) on 16 January 1945."
   },
   {
     "question": "Identify two specific viajes de agua mentioned in the text and provide the time periods during which they were constructed.",
     "source_article": "Madrid",
     "source_section": "Geography",
-    "source_subsection": "Water supply"
+    "source_subsection": "Water supply",
+    "ground_truth": "The two specific viajes de agua mentioned in the text are the Viaje de Amaniel (1610\u20131621) and the Viaje de Fuente Castellana (1613\u20131620)."
   },
   {
     "question": "Who is the current mayor of Madrid, and which political party does he represent?",
     "source_article": "Madrid",
-    "source_section": "Demographics",
-    "source_subsection": "Local government and administration"
+    "source_section": "Government",
+    "source_subsection": "Local government and administration",
+    "ground_truth": "The current mayor of Madrid is Jos\u00e9 Luis Mart\u00ednez-Almeida, and he represents the People's Party."
   },
   {
     "question": "What is the official residence of the King of Spain, and where is it located within Madrid?",
     "source_article": "Madrid",
-    "source_section": "Demographics",
-    "source_subsection": "Capital of Spain"
+    "source_section": "Government",
+    "source_subsection": "Capital of Spain",
+    "ground_truth": "The official residence of the King of Spain is the Zarzuela Palace, and it is located in the northwest of Madrid."
   },
   {
     "question": "Where are the headquarters of the Directorate-General of the Police and the Directorate-General of the Civil Guard located?",
     "source_article": "Madrid",
-    "source_section": "Demographics",
-    "source_subsection": "Law enforcement"
+    "source_section": "Government",
+    "source_subsection": "Law enforcement",
+    "ground_truth": "The headquarters of both the Directorate-General of the Police and the Directorate-General of the Civil Guard are located in Madrid."
   },
-  
   {
     "question": "Identify the leading industries in Madrid as of 2010 and explain how the industrial landscape has changed within the city boundaries over the years.",
     "source_article": "Madrid",
     "source_section": "Economy",
-    "source_subsection": "Present-day economy"
+    "source_subsection": "Present-day economy",
+    "ground_truth": "The leading industries in Madrid as of 2010 were: paper, printing & publishing (28.8%); energy & mining (19.7%); vehicles & transport equipment (12.9%); electrical and electronic (10.3%); foodstuffs (9.6%); clothing, footwear & textiles (8.3%); chemical (7.9%); and industrial machinery (7.3%). Over the years, industry has slowly declined within the city boundaries as more industry has moved outward to the periphery."
   },
   {
     "question": "Identify key figures in madrilenian architecture from the 19th and 20th centuries and describe their contributions to the city's architectural evolution. What were some of the major urban planning initiatives during this time?",
     "source_article": "Madrid",
     "source_section": "Culture",
-    "source_subsection": "Architecture"
+    "source_subsection": "Architecture",
+    "ground_truth": "Key figures in madrilenian architecture from the 19th and 20th centuries include Narciso Pascual y Colomer, Francisco Jare\u00f1o y Alarc\u00f3n, Francisco de Cubas, Juan Bautista L\u00e1zaro de Diego, Ricardo Vel\u00e1zquez Bosco, Antonio Palacios, Secundino Zuazo, Luis Guti\u00e9rrez Soto, Luis Moya Blanco, and Alejandro de la Sota. Their contributions involved modernizing the city and building new neighborhoods and monuments.\n\nMajor urban planning initiatives during this time included the expansion of Madrid under the Plan Castro, resulting in the neighborhoods of Salamanca, Arg\u00fcelles, and Chamber\u00ed. Additionally, Arturo Soria conceived the linear city and built the first few kilometers of the road that bears his name. The Gran V\u00eda was also constructed, showcasing various architectural styles that evolved over time."
   },
   {
     "question": "What are the three major museums that comprise the Golden Triangle of Art in Madrid, and what is the primary focus of each museum's collection?",
     "source_article": "Madrid",
     "source_section": "Culture",
-    "source_subsection": "Museums and cultural centres"
+    "source_subsection": "Museums and cultural centres",
+    "ground_truth": "The three major museums that comprise the Golden Triangle of Art in Madrid are:\n\n1. **Prado Museum**: Features one of the world's finest collections of European art from the 12th century to the early 19th century, based on the former Spanish Royal Collection.\n\n2. **Reina Sof\u00eda Museum**: Focuses on 20th-century art, mainly dedicated to Spanish art, and houses Pablo Picasso's Guernica.\n\n3. **Thyssen-Bornemisza Museum**: Fills historical gaps in the collections of the other two museums, including Italian primitives, Impressionists, Expressionists, and European and American paintings from the second half of the 20th century."
   },
   {
     "question": "Explain the phenomenon of le\u00edsmo, la\u00edsmo, and lo\u00edsmo in Madrid speech, and how do these pronouns function differently in the context of direct and indirect objects?",
     "source_article": "Madrid",
     "source_section": "Culture",
-    "source_subsection": "Language"
+    "source_subsection": "Language",
+    "ground_truth": "Le\u00edsmo, la\u00edsmo, and lo\u00edsmo in Madrid speech involve the specialization of pronouns: the pronoun \"le\" is used for masculine direct and indirect objects, while \"la\" is used for feminine direct and indirect objects."
   },
   {
     "question": "Identify two traditional winter specialties mentioned in the text and describe their main components.",
     "source_article": "Madrid",
     "source_section": "Culture",
-    "source_subsection": "Cuisine"
+    "source_subsection": "Cuisine",
+    "ground_truth": "Two traditional winter specialties mentioned in the text are:\n\n1. **Callos a la madrile\u00f1a** - usually made of cattle tripes.\n2. **Cocido madrile\u00f1o** - a chickpea-based stew."
   },
   {
     "question": "What are some of the key areas in Madrid known for their vibrant nightlife, and what types of venues can be found in these locations?",
     "source_article": "Madrid",
     "source_section": "Culture",
-    "source_subsection": "Nightlife"
+    "source_subsection": "Nightlife",
+    "ground_truth": "Some key areas in Madrid known for their vibrant nightlife include the surroundings of the Plaza de Santa Ana, Malasa\u00f1a, La Latina (particularly near the Cava Baja), and Chueca. The types of venues found in these locations include tapas bars, cocktail bars, clubs, jazz lounges, live music venues, and flamenco theatres."
   },
   {
     "question": "What is the seating capacity of Las Ventas, and during which months does the bullfighting season in Madrid typically take place?",
     "source_article": "Madrid",
     "source_section": "Culture",
-    "source_subsection": "Bullfighting"
+    "source_subsection": "Bullfighting",
+    "ground_truth": "The seating capacity of Las Ventas is almost 25,000, and the bullfighting season in Madrid typically takes place from March to October."
   },
   {
     "question": "What distinguishes the Technical University of Madrid (UPM) from other universities in Spain, and what is its relationship with the Ciudad Universitaria campus?",
     "source_article": "Madrid",
     "source_section": "Education",
-    "source_subsection": "Universities"
+    "source_subsection": "Universities",
+    "ground_truth": "The Technical University of Madrid (UPM) is distinguished as the top technical university in Spain. It shares the Ciudad Universitaria campus with the Complutense University of Madrid (UCM) and owns several schools scattered in the city centre and campuses in the Puente de Vallecas district and in the neighbouring municipality of Boadilla del Monte."
   },
   {
     "question": "Name two private universities based in Madrid and describe their locations or any notable features.",
     "source_article": "Madrid",
     "source_section": "Education",
-    "source_subsection": "Universities"
+    "source_subsection": "Universities",
+    "ground_truth": "Two private universities based in Madrid are Comillas Pontifical University (Universidad Pontificia Comillas, UPC), which has its rectorate and several faculties in Madrid, and Nebrija University, which is also based in Madrid."
   },
   {
     "question": "In what year did the top Spanish business schools (IESE, IE, ESADE) invest 125 million euros in expanding their campuses in Madrid?",
     "source_article": "Madrid",
     "source_section": "Education",
-    "source_subsection": "Business schools"
+    "source_subsection": "Business schools",
+    "ground_truth": "2020"
   },
   {
     "question": "What significant transportation policy did Madrid implement in 2018 regarding non-resident vehicles in downtown areas, and what might be the implications of this policy for urban mobility?",
     "source_article": "Madrid",
     "source_section": "Transport",
-    "source_subsection": ""
+    "source_subsection": "",
+    "ground_truth": "In 2018, Madrid banned all non-resident vehicles from its downtown areas. The implications of this policy for urban mobility are not stated in the excerpt."
   },
   {
     "question": "Describe the different types of bus services available in Madrid, including the specific features of the Airport Express Shuttle and the role of the Empresa Municipal de Transportes (EMT Madrid).",
     "source_article": "Madrid",
     "source_section": "Transport",
-    "source_subsection": "Public transport"
+    "source_subsection": "Public transport",
+    "ground_truth": "In Madrid, there is a dense network of bus routes run by the Empresa Municipal de Transportes (EMT Madrid), which operates 24 hours a day. Special services called \"N lines\" are provided during nighttime. The Airport Express Shuttle line, which connects the airport with the city centre, features distinctively yellow buses. Additionally, green buses (interurbanos) connect the city with the suburbs and are often run by private operators, while still being regulated by the CRTM."
   },
   {
     "question": "What advancements are being made in the design of high-speed trains in Spain, and how do they compare to the current Talgo AVRIL?",
     "source_article": "Madrid",
     "source_section": "Transport",
-    "source_subsection": "Long-distance transport"
+    "source_subsection": "Long-distance transport",
+    "ground_truth": "Spanish companies are designing new high-speed trains which will be the new-generation AVE, much like the current Talgo AVRIL."
   },
   {
     "question": "What are the primary functions of Cuatro Vientos Airport and Torrej\u00f3n Air Base, and how do they differ from Madrid-Barajas Airport?",
     "source_article": "Madrid",
     "source_section": "Transport",
-    "source_subsection": "Airport"
+    "source_subsection": "Airport",
+    "ground_truth": "Cuatro Vientos Airport has a dual military-civilian use and hosts several aviation schools. Torrej\u00f3n Air Base also has a secondary civilian use aside from its military purpose. In contrast, Madrid-Barajas Airport primarily handles passenger traffic and air freight movements, serving as a major European hub."
   },
   {
     "question": "How many foreign embassies are located in Madrid, and what significance do they hold in relation to the rest of Spain?",
     "source_article": "Madrid",
     "source_section": "International relations",
-    "source_subsection": "Diplomacy"
+    "source_subsection": "Diplomacy",
+    "ground_truth": "Madrid hosts 121 foreign embassies accredited before Spain, comprising the totality of resident embassies in the country."
   },
-
   {
     "question": "What international organisations does Madrid partner with, and what are they?",
     "source_article": "Madrid",
     "source_section": "International relations",
-    "source_subsection": "Partnerships with international organisations"
+    "source_subsection": "Partnerships with international organisations",
+    "ground_truth": "Madrid partners with the following international organisations: C40 Cities, International Labour Organization (OIT), Ibero-American General Secretariat (SEGIB), United Nations Educational, Scientific and Cultural Organization (UNESCO), and United Nations Human Settlements Programme (ONU-HABITAT)."
   }
 ]
